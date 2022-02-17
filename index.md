@@ -1,37 +1,85 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Joo249/untukdianayuu.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Joo249/untukdianayuu.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Love Letter</title>
+</head>
+<body>
+    <div class='game'>
+        <div class='game_loader'>
+          <div class='game_loader__inner'>
+            <div class='subtitle'>
+              <h1>A Love letter</h1>
+            </div>
+            <div class='bar'>
+              <div class='bar_inner'></div>
+            </div>
+            <span>Loading Messages...</span>
+          </div>
+        </div>
+        <div class='game_intro'>
+          <input checked='checked' class='dialogue' id='intro-1' name='intro' type='radio'>
+          <div class='dialogue'>
+            Hello there!
+            <label for='intro-2'>
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/arrowMovement.png'>
+            </label>
+          </div>
+          <input class='dialogue' id='intro-2' name='intro' type='radio'>
+          <div class='dialogue'>
+            Im gonna give you a love letter
+            <label for='intro-3'>
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/arrowMovement.png'>
+            </label>
+          </div>
+          <input class='dialogue' id='intro-3' name='intro' type='radio'>
+          <div class='dialogue'>
+            Geez it sure is dark in here
+            <label for='intro-4'>
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/arrowMovement.png'>
+            </label>
+          </div>
+          <input class='dialogue' id='intro-4' name='intro' type='radio'>
+          <div class='dialogue'>
+            Let me turn on the lamp...
+            <label for='intro-5'>
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/arrowMovement.png'>
+            </label>
+          </div>
+          <input class='dialogue' id='intro-5' name='intro' type='radio'>
+          <div class='dialogue end'>
+            Better. Now read the letter.
+          </div>
+          <input class='dialogue' id='intro-6' name='intro' type='radio'>
+          <div class='overlay'></div>
+        </div>
+    </div>
+    <div class="container">  
+        <div class="valentines">
+            <div class="envelope"></div>
+            <div class="front"></div>
+            <div class="card">
+                <div class="text">Happy</br> Valentine's</br> Day!</div>
+                <div class="heart"></div>
+                <div class="hearts">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                    <div class="four"></div>
+                    <div class="five"></div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <div class="modal" id="modal1">
+      <div class="modal-dialog">
+        <section class="modal-content">Teruntuk Dian Ayu Lestari Namanya+.<br><br>pertama aku mengucapakan banyak terima kasih kepadamu atas semua kebaikanmu dan perilaku mu kepadaku<br><br>Terimakasih sudah menjadi penyemangat di setiap hari-hari ku ini dan sudah percaya padaku dan memaklumi sifatku ini<br><br>Mohon maaf jika selama ini ada kesalahan yang membuatmu sedih ataupun marah dan aku sangat menyesalinya.<br><br>Mohon maaf bila aku sering membuatmu kesal,bete, dan muak atau apapun itu saat aku cemburu maaf yaa :)<br><br>jadi aku hanya bisa memberikan kartu ucapan valentine ini kepadamu secara online karena kamu jauh :(<br><br>Semoga kamu sehat selalu dan semoga semuanya dapat bertahan selama mungkin dan berlanjut ke hubungan yang lebih serius lebih dari ini.<br><br>Love you....<br><br><br>-from orng yang ngeselin tiap hari.., Joo.</section>
+      </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
